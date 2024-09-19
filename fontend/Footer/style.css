@@ -1,0 +1,115 @@
+/* FOOTER  */
+*{
+  font-family: Helvetica;
+  }
+.footer{
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgb(240, 169, 224);
+  background-color: #f3e2e5;
+  left: 0;
+}
+.footer-heading{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid-row-1{
+  display: flex;
+}
+.footer-gr1{
+  margin-left: 7%;
+}
+.footer-gr2{
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 140px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer-input{
+  padding: 10px; /* Khoảng cách bên trong */
+  margin:  0; /* Khoảng cách bên ngoài */
+  box-sizing: border-box;   
+  width: 100%; 
+  border-radius: 22px ;
+  border: 1px solid gray;
+  color: #737373;
+}
+input[type="submit"]{  
+  border: none;
+  border-radius: 20px;
+  padding: 8px 5px;
+  cursor: pointer;
+  background-color: #f3e2e5;
+  margin-left: auto;
+  margin-right: 3px;
+  text-align: center;
+  width: 60px;
+}
+input[type="submit"]:hover {
+  background-color: #f3e2e5;/* Thay đổi màu khi hover */
+}
+.footer-gr2 input{
+  display: flex;
+  margin-top: -44px;
+}
+#footer-submit{
+  text-align: center;
+
+}
+.grid-row-2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;   
+}
+.grid-column-2  {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 22%;
+  justify-content: space-evenly;
+}
+.footer-list {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-item-link{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #737373;
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+}
+.footer-image{
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+.footer-item-link:hover{
+  color: var(--primary-color);
+}
+.footer-item-link:hover img{
+  color: var(--primary-color);
+  transform: scale(1.3);
+}
+.footer-item-icon{
+  font-size: 1.2rem;
+  margin: -1px 8px ;
+}
+.footer-image a img{
+  width: 30px;
+}
+
+#success-message, #error-message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* FOOTER  */
