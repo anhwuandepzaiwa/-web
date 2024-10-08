@@ -1,0 +1,33 @@
+/* THANH THÔNG BÁO */
+/* Thẻ thông báo cơ bản */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: none;  /* Ẩn thông báo lúc đầu */
+  z-index: 1000;
+}
+
+/* Nút thoát trong thông báo */
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.close-btn:hover {
+  color: #ccc;
+}
+
+/*END THANH THÔNG BÁO */
